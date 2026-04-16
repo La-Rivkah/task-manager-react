@@ -1,0 +1,40 @@
+form {
+  display: flex;
+  gap: 12px;
+}
+
+input {
+  flex: 1;
+  padding: 12px 14px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(122, 106, 166, 0.25);
+
+  outline: none;
+  font-size: 14px;
+
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #7a6aa6;
+  box-shadow: 0 0 0 3px rgba(122, 106, 166, 0.15);
+}
+
+.add-button {
+  background: #7a6aa6;
+  color: white;
+
+  border: none;
+  padding: 12px 16px;
+  border-radius: 12px;
+
+  cursor: pointer;
+  font-weight: 500;
+
+  transition: 0.2s;
+}
+
+.add-button:hover {
+  transform: translateY(-2px);
+}
